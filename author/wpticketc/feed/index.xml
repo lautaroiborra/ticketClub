@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>wpticketc &#8211; Ticket Club!</title>
+	<atom:link href="/https://lautaroiborra.github.io/ticketClub/author/wpticketc/feed/" rel="self" type="application/rss+xml" />
+	<link>/https://lautaroiborra.github.io/ticketClub</link>
+	<description>Otro sitio realizado con WordPress</description>
+	<lastBuildDate>Thu, 12 Nov 2020 01:28:57 +0000</lastBuildDate>
+	<language>es-AR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.5.3</generator>
+	<item>
+		<title>¡Hola mundo!</title>
+		<link>/https://lautaroiborra.github.io/ticketClub/2020/11/11/hola-mundo/</link>
+					<comments>/https://lautaroiborra.github.io/ticketClub/2020/11/11/hola-mundo/#comments</comments>
+		
+		<dc:creator><![CDATA[wpticketc]]></dc:creator>
+		<pubDate>Thu, 12 Nov 2020 01:28:57 +0000</pubDate>
+				<category><![CDATA[Sin categoría]]></category>
+		<guid isPermaLink="false">/https://lautaroiborra.github.io/ticketClub/?p=1</guid>
+
+					<description><![CDATA[Bienvenido a WordPress. Esta es tu primera entrada. Editala o borrala, y después ¡empezá a escribir!]]></description>
+										<content:encoded><![CDATA[
+<p>Bienvenido a WordPress. Esta es tu primera entrada. Editala o borrala, y después ¡empezá a escribir!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/https://lautaroiborra.github.io/ticketClub/2020/11/11/hola-mundo/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
