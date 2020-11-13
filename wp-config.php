@@ -20,7 +20,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'ticketClub_db' );
+define( 'DB_NAME', 'wordprowns' );
 
 /** MySQL database username */
 define( 'DB_USER', 'root' );
@@ -46,14 +46,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'TWu;l`l6:MNGo:.QDhFU24{^`r^$BL<M`DC*?zJaJEJ}!|h./sVdX@6&-)m%fs.D' );
-define( 'SECURE_AUTH_KEY',  'Si|tH|sUG5646i&wJUDiz/~OQ#R$*2`Q57WPOqO(T%^4b4cU8ZG/Y(8c<pA&aNqg' );
-define( 'LOGGED_IN_KEY',    'm}A_@rtsc0P:s#g/&EfK{JDxcXoW2HbQt*pMoW0>Uav`RQ|>M~qF+;)4(_imve5v' );
-define( 'NONCE_KEY',        '<@r|&P%}|T.:o)+ez7r0e.ssTn0zXj]$jT85LerE4eG3SUgTfco;W,*6!!-?v{x<' );
-define( 'AUTH_SALT',        'nL*56A[,WO@4|Rk a:?vW=?9Puf3e5/MAh..$&eJ<jm}Yv.Ce]jXcTrkQS2CHle;' );
-define( 'SECURE_AUTH_SALT', '%@3t_E,5Xhs>aBFN#bE>Kk)0hu#=5%pH(EjS$~P+grWq:.W)&G!;hP|$rb+3g+=L' );
-define( 'LOGGED_IN_SALT',   '>AYh%5&5Kcg1>/TmuDhkH(D}6gOkF)X$]&fS2o6MdqU-;Ter@[ms,K(A9T>V-iRX' );
-define( 'NONCE_SALT',       '6#mF]nZU3w>o/L-f?LKahBxeI4I#j_CPc1.mUuGLI4?7<AY6e?PH`$}K=&V`}FMB' );
+define( 'AUTH_KEY',         'l:yVjp6QcGFy:IpxAIQct/-cP]Pp`69&L1F+6%Ra:J6GT=o8S6f vuXU~/8!%}qd' );
+define( 'SECURE_AUTH_KEY',  '_F2g)^|KTP8.6&!rIU-$=~}ArijR%6.Q4yx;+,<F1yO>t:=<KfOn0Ujd+kml#ppt' );
+define( 'LOGGED_IN_KEY',    '~6,7+.K9(J(rm]i!oiHovE{AB;Wy~{:%I?y[c*;bv#8-#e]UxNsO`+WOY)0O(G$s' );
+define( 'NONCE_KEY',        '#9u6J=QM?7hMeNQc$al6HCFlHi_Z/oz*dm5[g(XL7p&A$A0I~r,N+-;Ie.Va30a#' );
+define( 'AUTH_SALT',        'DDV O7Bd$b3PN@_s8%9n0x]_F)eU*.r|yYNt:6Kk1w`gbp{Z~H|/GWEv%)IuM16[' );
+define( 'SECURE_AUTH_SALT', 'UY/Y=p9|j8grSO^~5f&#@+4tl-?ZS6b.kb4}udMZP{?A68U9@_ycM!s{n#Hh&s$C' );
+define( 'LOGGED_IN_SALT',   'A[WeRu6|C8D^+AS}Yg>|Fqn-mP{2asmGR2UGg^Z@ :TMwe1&37kn5wJu#[;-/{$L' );
+define( 'NONCE_SALT',       'T%;oFsR`/HezURQwE<ZZrpj_fp>bs42?2poK*Fj/uMY[B7WahvM-mNQ28(){lo1#' );
 
 /**#@-*/
 
@@ -88,3 +88,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
+
+set_time_limit(300);

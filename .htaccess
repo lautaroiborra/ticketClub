@@ -5,11 +5,12 @@
 # Cualquier cambio en las directivas que hay entre esos marcadores serán sobrescritas.
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /ticketClub/
+RewriteBase /wordprowns/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /ticketClub/index.php [L]
+RewriteRule . /wordprowns/index.php [L]
 </IfModule>
+php_value max_execution_time 300
 
 # END WordPress
